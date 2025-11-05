@@ -9,7 +9,7 @@ permissions:
   
 jobs:
   build-and-push:
-    runs-on: todo_runner
+    runs-on: ubuntu-latest
 
     env:
       IMAGE_NAME: todo-get-tasks-api
